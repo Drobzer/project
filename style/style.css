@@ -1,0 +1,302 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.10.2015, 02:05:03
+    Author     : Drobzer
+*/
+
+body{
+    width: 1600px;
+    min-height: 900px;
+	max-height: 20000px;
+    margin: auto;
+    //background-color: chocolate;
+	background-color: #E6E9EB;
+}
+div.head{
+	//border-radius: 25px;
+	//position: fixed;
+	//top: 0;
+	//left: 0;
+    width: 100%;
+    height: 120px;
+    //margin-top: 20px;
+	background-color: rgba(255,248,220, .5);
+}
+div.head h1{
+   text-align: center;
+   clear: both;
+   margin: 0;
+   padding: 0;
+}
+
+div.head div.info-left{
+	float: left;
+	width: 400px;
+}
+div.head div.info-right{
+	float: left;
+	width: 400px;
+}
+
+div.nav{
+	//margin-top: 130px;
+    width: 100%;
+    background-color: #441122;
+}
+div.nav ul{
+    width: 80%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+div.nav li{
+    display: inline;
+}
+div.nav ul li a{
+    width: 120px;
+    font-weight: bold;
+    color: #94F7B7;
+    background-color: #782F47;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div.nav ul li a:hover{
+    background-color: #F70C5B ;
+}
+div.content{
+    width: 1600px;
+	min-height: 900px;
+	max-height: 2000px;
+    padding-top: 50px;
+	padding-bottom: 50px;
+    //background-color: cornsilk;
+	background-color: rgba(255,248,220, .5);
+}
+div.left{
+	float: left;
+	//position: fixed;
+	//top: 200px;
+	//left: 25px;
+    width: 150px;
+	min-height: 600px;
+	max-height: 1900px;
+    clear: both;
+    margin: 0;
+	padding-bottom: 30px;
+    min-height: 60px;
+}
+div.left ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+div.left li{
+	list-style: none;
+	margin: 5px 5px 5px 5px;
+}
+
+div.left a{
+	text-decoration: none;
+	display: block;
+	color: yellow;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+div.left ul li a{
+    width: 120px;
+    font-weight: bold;
+    color: #94F7B7;
+    background-color: #782F47;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+	box-shadow: 10px 10px 15px #894058;
+}
+div.left ul li a:hover, a:active{
+    background-color: #F70C5B ;
+}
+
+
+/*
+div.right{
+	min-height: 600px;
+	max-height: 19000px;
+	width: 1050px;
+    margin-left: 100px;
+    width: 90%;
+    margin-top: 0;
+    padding-bottom: 30px;
+    min-height: 100px;
+}
+
+div.right h1{
+    margin-top: 0;
+    padding-top: 10px;
+}
+div.right p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+*/
+
+div.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #441122;
+}
+div.footer p{
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: #94F7B7;
+}
+
+div#remotes{
+	width: 1400px;
+	//margin: auto;
+	margin-left: 100px;
+}
+div#remotes table{
+	border: 1px solid black;
+	width: 1400px;
+	min-width: 400px;
+	height: 100%;
+	margin: auto;
+}
+div#remotes table tr{
+	background-color: #D5D6BA;
+}
+div#remotes table th{
+	background-color: #F2AC80;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+div#remotes table td{
+	padding: 5px 5px 5px 5px;
+}
+
+div#resolvedremotes{
+	width: 1400px;
+	//margin: auto;
+	margin-left: 100px;
+}
+
+div#resolvedremotes table{
+	border: 1px solid black;
+	width: 1400px;
+	min-width: 400px;
+	height: 100%;
+	margin: auto;
+	//text-align: center;
+}
+div#resolvedremotes table tr{
+	background-color: #D5D6BA;
+}
+div#resolvedremotes table th{
+	background-color: #F2AC80;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+div#resolvedremotes table td{
+	padding: 5px 5px 5px 5px;
+}
+
+form.report{
+	margin: auto;
+	border: 5px ridge #782F47;
+	width: 300px;
+	background-color: #D4D3C7;
+	margin-bottom: 30px;
+	padding: 0 5px 0 5px;
+}
+div#reptemp{
+	margin: auto;
+	border: 5px ridge #782F47;
+	width: 500px;
+	background-color: #D4D3C7;
+	padding: 0 5px 0 5px;
+}
+div.scheduletable{
+	width: 420px;
+	margin: auto;
+}
+div.scheduletable table{
+	border: 5px ridge #782F47;
+	background-color: #D4D3C7;
+	padding: 10px 10px 10px 10px;
+}
+div.scheduletable table form input{
+	margin: 0 15px 0 15px;
+}
+#reschedule_message{
+	color: green;
+	margin: auto;
+}
+#reschedule_error_message{
+	color: #ff0000;
+	margin: auto;
+}
+#problems{
+	width: 900px;
+	margin: auto;
+}
+#problems table{
+	border: 1px solid black;
+	padding: 0 10px 10px 10px;
+}
+#problems td{
+	text-transform: uppercase;
+}
+#problems input{
+	width: 400px;
+}
+#users{
+	width: 100px;
+	margin: auto;
+	border: 1px solid gray;
+}
+#users th{
+	background-color: #eeeeee;
+	width: 100%;
+	padding: 0 5px 0 5px;
+}
+#users td{
+	padding: 0 5px 0 5px;
+}
+tr.first{
+	background-color: #cdcdb4;
+}
+tr.second{
+	background-color: #8b8b7a;
+}
+form#sform{
+	width: 600px;
+	margin: auto;
+}
+table#sres{
+	width: 100%;
+	margin: auto;
+	border: 1px solid gray;
+	background-color: #dddddd;
+	margin-top: 50px;
+}
+table#sres th{
+	background-color: #829bae;
+	padding: 5px 5px 5px 5px;
+}
+table#sres tr{
+	padding: 5px 5px 5px 5px;
+}
+table#sres tr td{
+	background-color: #eeeeee;
+}
